@@ -1,12 +1,7 @@
 import random
 
 import numpy as np
-#   TODO: Selector pomiędzy 'wybierz posiłek' a 'dodaj posiłek'
 #   TODO: Selector między posiłkiem na 'słodko' lub 'słono'
-#   TODO: Losowanie posiłku z tablicy
-#   TODO: Selector czy posiłek odpowiada użytkownikowi
-#   TODO: Warunek if
-#   TODO: Wyświetlanie składników jeśli posiłek odpowiada.
 
 dishes = ["pomidorowa","grzybowa","serowa"]
 ingredients = ["cos"]
@@ -32,7 +27,7 @@ def dish_is_good():
         print("Invalid syntax!")
         return False
 
-def add_dish():
+# def add_dish():
 
 
 first_choose = welcome()
