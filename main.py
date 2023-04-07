@@ -37,6 +37,7 @@ def add_dish(first_choose):
     if new_dish_name in dishes:
         print("To danie znajduje się już na liście.")
     else:
+        #   TODO: Make a reapetable ver. with multi-ingredients in list and multi dish key values in dictionary
         dishes.append(new_dish_name)
         print(dishes)
         new_ingredients_name = str(input("Podaj nazwe pierwszego składnika: ")).lower()
