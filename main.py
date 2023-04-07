@@ -39,6 +39,12 @@ def add_dish(first_choose):
     else:
         dishes.append(new_dish_name)
         print(dishes)
+        new_ingredients_name = str(input("Podaj nazwe pierwszego składnika: ")).lower()
+        ingredients_list = []
+        lists = {new_dish_name: ingredients_list}
+        lists[new_dish_name].append(new_ingredients_name)
+        print(f"The new list named {new_dish_name} has been created.")
+        print(lists[new_dish_name])
 
 
 first_choose = welcome()
